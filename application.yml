@@ -1,0 +1,17 @@
+﻿Spring: 
+  profiles: 
+    active: 
+    - dev
+---
+Spring: 
+  profiles: dev #开发环境
+  application: 
+    name: microservice-config-hong-dev 
+---
+Spring: 
+  profiles: test #测试环境
+  application: 
+    name: microservice-config-hong-test
+
+#注意，一定要保存为UTF-8格式    
+    
