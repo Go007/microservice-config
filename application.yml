@@ -1,14 +1,14 @@
-﻿Spring: 
+﻿spring:
   profiles: 
     active: 
     - dev
----
-Spring: 
+
+spring:
   profiles: dev #开发环境
   application: 
     name: microservice-config-hong-dev 
----
-Spring: 
+
+spring:
   profiles: test #测试环境
   application: 
     name: microservice-config-hong-test
